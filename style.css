@@ -166,4 +166,53 @@ header .menu a:hover {
   font-weight: 700;
   color: white;
   line-height: 1.3;
+}
+
+#team {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+#team h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#team h4 {
+  font-size: 20px;
+  color: #7c8487;
+  margin: 20px 0 65px;
+}
+#team .imgbox {
+  border-radius: 50%;
+  width: 210px;
+}
+#team .textbox {
+  text-align: center;
+}
+#team .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 25px 0 7px;
+}
+#team .textbox h3 {
+  font-size: 20px;
+  color: #7c8487;
+}
+#team .textbox ul {
+  display: flex;
+  justify-content: center;
+}
+#team .textbox ul li {
+  padding: 11px;
+  margin: 20px 13px 0;
+  background-color: #212529;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+#team h5 {
+  margin-top: 50px;
+  font-size: 20px;
+  color: #7c8487;
+  width: 820px;
+  line-height: 1.4;
 }/*# sourceMappingURL=style.css.map */
