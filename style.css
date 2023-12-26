@@ -215,4 +215,20 @@ header .menu a:hover {
   color: #7c8487;
   width: 820px;
   line-height: 1.4;
+}
+
+#microsoft {
+  padding: 60px 0;
+}
+#microsoft .imgbox {
+  width: 200px;
+}
+#microsoft .google {
+  width: 120px;
+}
+#microsoft .facebook {
+  width: 170px;
+}
+#microsoft .ibm {
+  width: 110px;
 }/*# sourceMappingURL=style.css.map */
