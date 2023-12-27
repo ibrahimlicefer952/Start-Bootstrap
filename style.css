@@ -10,12 +10,15 @@ body {
   width: 100%;
 }
 
-header .imgbox {
-  width: 140px;
-}
 header .menu {
-  background-color: #212529;
+  width: 1295px;
   height: 72px;
+  position: fixed;
+  z-index: 1;
+  background-color: #212529;
+}
+header .menu .imgbox {
+  width: 140px;
 }
 header .menu a {
   font-size: 20px;
@@ -237,4 +240,8 @@ header .menu a:hover {
 }
 #microsoft .ibm {
   width: 110px;
+}
+
+#contact .imgbox {
+  background-color: #212529;
 }/*# sourceMappingURL=style.css.map */
