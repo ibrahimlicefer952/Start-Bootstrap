@@ -203,11 +203,17 @@ header .menu a:hover {
 }
 #team .textbox ul li {
   padding: 11px;
-  margin: 20px 13px 0;
+  margin: 20px 11px 0;
   background-color: #212529;
   border-radius: 50%;
   color: white;
   cursor: pointer;
+}
+#team .margin {
+  margin: 0px 3px;
+}
+#team .marginn {
+  margin: 0 1px;
 }
 #team h5 {
   margin-top: 50px;
