@@ -242,6 +242,33 @@ header .menu a:hover {
   width: 110px;
 }
 
-#contact .imgbox {
+#contact .box h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#contact .box h3 {
+  font-size: 20px;
+  color: #7c8487;
+}
+#contact .box .add input {
+  border: 1px solid #6b7075;
+  font-size: 20px;
+  font-weight: 700;
+  width: 635px;
+  height: 65px;
+}
+#contact .box .add textarea {
+  font-size: 20px;
+  font-weight: 700;
+}
+#contact .box .btn {
+  font-size: 25px;
+  background-color: #ffc800;
+  color: white;
+  padding: 15px 37px;
+  opacity: 0.8;
+  cursor: auto;
+}
+#contact .box .imgbox {
   background-color: #212529;
 }/*# sourceMappingURL=style.css.map */
