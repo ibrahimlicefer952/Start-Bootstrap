@@ -242,22 +242,34 @@ header .menu a:hover {
   width: 110px;
 }
 
+#contact .box {
+  position: relative;
+}
 #contact .box h1 {
   font-size: 50px;
   font-weight: 700;
+  color: white;
+  position: absolute;
+  top: 423px;
+  left: 530px;
 }
 #contact .box h3 {
   font-size: 20px;
   color: #7c8487;
+  position: absolute;
+  top: 490px;
+  left: 500px;
 }
-#contact .box .add input {
+#contact .box input {
   border: 1px solid #6b7075;
   font-size: 20px;
   font-weight: 700;
   width: 635px;
   height: 65px;
+  position: absolute;
+  top: 300px;
 }
-#contact .box .add textarea {
+#contact .box textarea {
   font-size: 20px;
   font-weight: 700;
 }
