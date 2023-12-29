@@ -32,6 +32,7 @@ header .menu a:hover {
 #ourstudio .box {
   position: relative;
   color: white;
+  background-color: #ffffff;
 }
 #ourstudio .box h1 {
   font-size: 40px;
