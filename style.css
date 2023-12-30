@@ -39,7 +39,6 @@ header .menu a:hover {
 #ourstudio .box {
   position: relative;
   color: white;
-  background-color: #ffffff;
 }
 #ourstudio .box h1 {
   font-size: 40px;
@@ -139,7 +138,7 @@ header .menu a:hover {
   margin: 60px 39px;
 }
 #about .box .textbox {
-  margin: 0 55px 0;
+  margin: 0 54px 0;
   width: 420px;
 }
 #about .box .textbox h2, #about .box .textbox h4 {
@@ -155,12 +154,16 @@ header .menu a:hover {
   line-height: 1.4;
 }
 #about .imgbox {
-  width: 150px;
+  width: 165px;
+  height: 165px;
+  border: 7px solid #e9ecef;
   border-radius: 50%;
+  background-size: cover;
 }
 #about .bgc {
   margin-top: 70px;
   padding: 35px 45px;
+  border: 7px solid #e9ecef;
   border-radius: 50%;
   background-color: #ffc800;
 }
@@ -170,6 +173,18 @@ header .menu a:hover {
   font-weight: 700;
   color: white;
   line-height: 1.3;
+}
+#about .picture {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/1.jpg");
+}
+#about .picturee {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/2.jpg");
+}
+#about .pictureee {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/3.jpg");
+}
+#about .pictureeee {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/4.jpg");
 }
 
 #team {
@@ -186,7 +201,8 @@ header .menu a:hover {
 }
 #team .imgbox {
   border-radius: 50%;
-  width: 210px;
+  border: 8px solid #dfe0e1;
+  width: 230px;
 }
 #team .textbox {
   text-align: center;
