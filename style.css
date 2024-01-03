@@ -64,6 +64,12 @@ header .menu a:hover {
   top: 535px;
   left: 510px;
 }
+#ourstudio .box .btn h2 {
+  cursor: pointer;
+}
+#ourstudio .box h1, #ourstudio .box h3 {
+  cursor: text;
+}
 
 #services .textbox {
   text-align: center;
@@ -95,6 +101,9 @@ header .menu a:hover {
   color: #7c8487;
   line-height: 1.4;
 }
+#services .textbox h1, #services .textbox h3, #services .textbox h2, #services .textbox h4 {
+  cursor: text;
+}
 
 #portfolio {
   background-color: #f8f9fa;
@@ -123,6 +132,9 @@ header .menu a:hover {
 }
 #portfolio .box .textbox h3 {
   margin: 10px 0 0;
+}
+#portfolio h1, #portfolio h2, #portfolio h3, #portfolio h4 {
+  cursor: text;
 }
 
 #about h1 {
@@ -186,6 +198,9 @@ header .menu a:hover {
 #about .pictureeee {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/4.jpg");
 }
+#about h1, #about h2, #about h3, #about h4, #about p {
+  cursor: text;
+}
 
 #team {
   background-color: #f8f9fa;
@@ -228,6 +243,12 @@ header .menu a:hover {
   color: white;
   cursor: pointer;
 }
+#team .textbox ul li:hover {
+  background-color: #424649;
+}
+#team .textbox ul li i {
+  cursor: pointer;
+}
 #team .margin {
   margin: 0px 3px;
 }
@@ -240,6 +261,9 @@ header .menu a:hover {
   color: #7c8487;
   width: 820px;
   line-height: 1.4;
+}
+#team h1, #team h2, #team h3, #team h4, #team h5 {
+  cursor: text;
 }
 
 #microsoft {
@@ -294,6 +318,7 @@ header .menu a:hover {
   left: 662px;
   border-radius: 6px;
   padding: 23px 0 0 23px;
+  cursor: text;
 }
 #contact .box .btn {
   font-size: 25px;
@@ -320,4 +345,7 @@ header .menu a:hover {
 #contact .positionnn {
   position: absolute;
   top: 409px;
+}
+#contact h1, #contact h3 {
+  cursor: text;
 }/*# sourceMappingURL=style.css.map */
