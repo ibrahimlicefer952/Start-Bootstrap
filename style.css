@@ -353,14 +353,12 @@ header .menu a:hover {
 footer {
   padding: 25px 0;
 }
-footer h1 {
+footer h1, footer h2 {
   font-size: 18px;
   cursor: text;
   color: #9c9693;
 }
-footer a {
-  font-size: 18px;
-  color: #9c9693;
+footer h2 {
   margin-left: 15px;
   cursor: pointer;
 }
