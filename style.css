@@ -250,7 +250,7 @@ header .menu a:hover {
   cursor: pointer;
 }
 #team .margin {
-  margin: 0px 3px;
+  margin: 0 3px;
 }
 #team .marginn {
   margin: 0 1px;
@@ -348,4 +348,32 @@ header .menu a:hover {
 }
 #contact h1, #contact h3 {
   cursor: text;
+}
+
+footer h1, footer h2 {
+  font-size: 18px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  padding: 11px;
+  margin: 20px 11px 0;
+  background-color: #212529;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+footer ul li:hover {
+  background-color: #424649;
+}
+footer ul li:hover i {
+  cursor: pointer;
+}
+footer .margin {
+  margin: 0 3px;
+}
+footer .marginn {
+  margin: 0 1px;
 }/*# sourceMappingURL=style.css.map */
